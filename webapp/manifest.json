@@ -1,5 +1,5 @@
 {
-  "_version": "1.85.0",
+  "_version": "2.0.0",
   "sap.app": {
     "id": "sap.btp.helloworldui5",
     "type": "application",
@@ -82,7 +82,6 @@
         "type": "View",
         "viewType": "XML",
         "path": "sap.btp.helloworldui5.view",
-        "async": true,
         "viewPath": "sap.btp.helloworldui5.view"
       },
       "routes": [
@@ -104,8 +103,7 @@
     "rootView": {
       "viewName": "sap.btp.helloworldui5.view.App",
       "type": "XML",
-      "id": "App",
-      "async": true
+      "id": "App"
     }
   },
   "sap.cloud": {
