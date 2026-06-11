@@ -8,7 +8,7 @@ sap.ui.define([
         onInit() {
         },
         onHelloWorldPress() {
-            MessageToast.show("Hello Jaydeep to the world!!!!!!!!!!");
+            MessageToast.show("Hello World");
         }
     });
 });
